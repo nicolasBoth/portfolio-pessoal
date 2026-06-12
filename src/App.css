@@ -383,6 +383,10 @@ h3 {
   padding: 24px;
   background: var(--paper);
   box-shadow: 0 14px 38px rgba(35, 49, 61, 0.07);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
 }
 
 .panel-title {
@@ -425,6 +429,21 @@ h3 {
   border-radius: 8px;
   background: var(--paper);
   box-shadow: 0 14px 38px rgba(35, 49, 61, 0.07);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.stack-panel:hover,
+.stack-panel:focus-within,
+.highlight-card:hover,
+.highlight-card:focus-within,
+.project-card:hover,
+.project-card:focus-within {
+  border-color: rgba(65, 105, 130, 0.24);
+  box-shadow: 0 20px 48px rgba(35, 49, 61, 0.12);
+  transform: translateY(-4px) scale(1.015);
 }
 
 .highlight-card {
@@ -510,6 +529,17 @@ h3 {
     linear-gradient(120deg, rgba(229, 239, 228, 0.92), rgba(251, 250, 247, 0.96)),
     var(--paper);
   box-shadow: var(--shadow);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.contact-section:hover,
+.contact-section:focus-within {
+  border-color: rgba(65, 105, 130, 0.26);
+  box-shadow: 0 26px 64px rgba(35, 49, 61, 0.15);
+  transform: translateY(-4px) scale(1.01);
 }
 
 .contact-content {
