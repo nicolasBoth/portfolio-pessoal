@@ -654,13 +654,54 @@ h3 {
   }
 
   .project-footer {
-    align-items: flex-start;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .project-footer .tech-list {
+    flex: 1 1 auto;
+    gap: 8px;
+  }
+
+  .project-footer .tech-list span {
+    padding: 8px 10px;
+    font-size: 0.86rem;
   }
 
   .contact-section {
     padding: 24px;
     margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 360px) {
+  .project-card {
+    padding: 20px 16px;
+  }
+
+  .project-footer {
+    gap: 8px;
+  }
+
+  .project-footer a {
+    gap: 4px;
+    font-size: 0.88rem;
+  }
+
+  .project-footer a svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .project-footer .tech-list {
+    gap: 6px;
+  }
+
+  .project-footer .tech-list span {
+    padding: 7px 8px;
+    font-size: 0.78rem;
   }
 }
 
