@@ -11,6 +11,7 @@ import {
   Sparkles,
   Target,
 } from 'lucide-react'
+import techIllustration from './assets/software-engineer.svg'
 
 const links = {
   github: 'https://github.com/nicolasBoth',
@@ -61,11 +62,11 @@ function App() {
   return (
     <div className="page-shell">
       <header className="site-header">
-          <a className="brand" href="#inicio" aria-label="Ir para o início">
-          NB
+        <a className="brand" href="#inicio" aria-label="Ir para o início">
+          Nicolas Both
         </a>
 
-        <nav className="main-nav" aria-label="Navegacao principal">
+        <nav className="main-nav" aria-label="Navegação principal">
           <a href="#sobre">Sobre</a>
           <a href="#projetos">Projetos</a>
           <a href="#contato">Contato</a>
@@ -76,10 +77,14 @@ function App() {
         <section className="hero-section" id="inicio">
           <div className="hero-background" aria-hidden="true" />
           <div className="hero-content">
-            <div className="profile-media">
+            <div className="tech-visual" aria-label="Ilustração animada de tecnologia">
+              <span className="tech-orbit" aria-hidden="true" />
+              <span className="tech-dot dot-one" aria-hidden="true" />
+              <span className="tech-dot dot-two" aria-hidden="true" />
+              <span className="tech-dot dot-three" aria-hidden="true" />
               <img
-                src="https://avatars.githubusercontent.com/u/257862905?v=4"
-                alt="Foto de perfil de Nicolas Both"
+                src={techIllustration}
+                alt="Ilustração minimalista de desenvolvimento de software"
               />
             </div>
 
@@ -92,7 +97,7 @@ function App() {
                 e crescer escrevendo código de verdade.
               </p>
 
-              <div className="hero-meta" aria-label="Informacoes rapidas">
+              <div className="hero-meta" aria-label="Informações rápidas">
                 <span>
                   <MapPin size={18} aria-hidden="true" />
                   Gravataí, RS
