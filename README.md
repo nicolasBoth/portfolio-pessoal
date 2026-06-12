@@ -1,6 +1,6 @@
 # Portifolio Pessoal | Nicolas Both
 
-Portfolio pessoal desenvolvido em React para apresentar meu perfil como estudante de Analise e Desenvolvimento de Sistemas em busca da primeira oportunidade de estagio em desenvolvimento.
+Portfólio pessoal desenvolvido em React para apresentar meu perfil como estudante de Análise e Desenvolvimento de Sistemas em busca da primeira oportunidade de estágio em desenvolvimento.
 
 ## Tecnologias
 
@@ -13,7 +13,7 @@ Portfolio pessoal desenvolvido em React para apresentar meu perfil como estudant
 
 ## Conteudo
 
-- Apresentacao profissional
+- Apresentação profissional
 - Stack atual
 - Projetos e estudos em destaque
 - Links para LinkedIn, GitHub e email
