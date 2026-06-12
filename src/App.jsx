@@ -49,12 +49,12 @@ const projects = [
     status: 'Repositório público',
   },
   {
-    name: 'Jogo da Velha',
+    name: 'Portfólio Pessoal',
     description:
-      'Projeto de prática para exercitar lógica de programação, regras de jogo e manipulação de estado usando Python.',
-    techs: ['Python', 'Lógica'],
-    href: links.github,
-    status: 'Em evolução',
+      'Página pessoal desenvolvida em React para apresentar minha trajetória, stack, projetos e contatos de forma clara para recrutadores.',
+    techs: ['React', 'Vite', 'CSS'],
+    href: 'https://github.com/nicolasBoth/portifolio-pessoal',
+    status: 'Projeto atual',
   },
 ]
 

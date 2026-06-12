@@ -469,10 +469,11 @@ h3 {
 
 .project-footer {
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: space-between;
   gap: 16px;
   margin-top: 24px;
+  min-height: 40px;
 }
 
 .project-footer a {
@@ -482,6 +483,11 @@ h3 {
   min-width: max-content;
   color: var(--blue-dark);
   font-weight: 800;
+}
+
+.project-footer .tech-list {
+  flex: 1 1 auto;
+  align-items: center;
 }
 
 .project-footer a:hover,
