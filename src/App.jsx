@@ -11,7 +11,7 @@ import {
   Sparkles,
   Target,
 } from 'lucide-react'
-import techIllustration from './assets/software-engineer.svg'
+import techIllustration from './assets/minimalist-dev-palette-transparent.png'
 
 const links = {
   github: 'https://github.com/nicolasBoth',
@@ -78,13 +78,9 @@ function App() {
           <div className="hero-background" aria-hidden="true" />
           <div className="hero-content">
             <div className="tech-visual" aria-label="Ilustração animada de tecnologia">
-              <span className="tech-orbit" aria-hidden="true" />
-              <span className="tech-dot dot-one" aria-hidden="true" />
-              <span className="tech-dot dot-two" aria-hidden="true" />
-              <span className="tech-dot dot-three" aria-hidden="true" />
               <img
                 src={techIllustration}
-                alt="Ilustração minimalista de desenvolvimento de software"
+                alt="Ilustração de homem de cabelo curto trabalhando em um laptop"
               />
             </div>
 
