@@ -19,7 +19,7 @@ const links = {
   email: 'mailto:nicolasboth07@gmail.com',
 }
 
-const stack = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Python']
+const stack = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Python', 'TypeScript']
 
 const highlights = [
   {
@@ -131,7 +131,7 @@ function App() {
             <div className="intro-text">
               <p>
                 Estou cursando Análise e Desenvolvimento de Sistemas e construindo
-                meu caminho como desenvolvedor full-stack. Minha prioridade agora e
+                meu caminho como desenvolvedor full-stack. Minha prioridade agora é
                 entrar em um ambiente onde eu possa evoluir com boas práticas,
                 participar de entregas reais e aprender com pessoas mais experientes.
               </p>
