@@ -41,21 +41,22 @@ const highlights = [
 
 const projects = [
   {
-    name: 'Tecboard',
-    description:
-      'Projeto desenvolvido durante o curso de Front End da Alura, com foco em estrutura HTML, estilo CSS e composição visual.',
-    techs: ['HTML', 'CSS'],
-    href: 'https://github.com/nicolasBoth/tecboard',
-    status: 'Repositório público',
-  },
-  {
     name: 'Portfólio Pessoal',
     description:
       'Página pessoal desenvolvida em React para apresentar minha trajetória, stack, projetos e contatos de forma clara para recrutadores.',
     techs: ['React', 'Vite', 'CSS'],
     href: 'https://github.com/nicolasBoth/portifolio-pessoal',
+    status: 'Repositório público',
+  },
+  {
+    name: 'Jornada Viagens',
+    description:
+      'Jornada Viagens é um site responsivo de uma agência de viagens fictícia, criada a partir de um layout no Figma de um curso da Alura. O projeto foi desenvolvido em HTML/CSS e depois adaptado para React com Vite, usando componentização, assets locais, hooks e ícones.',
+    techs: ['HTML', 'CSS', 'React'],
+    href: 'https://github.com/nicolasBoth/jornada-viagens',
     status: 'Projeto atual',
   },
+  
 ]
 
 function App() {
@@ -90,7 +91,7 @@ function App() {
               <p className="hero-lead">
                 Futuro desenvolvedor full-stack em busca de estágio para aprender
                 com um time experiente, contribuir com interfaces bem construídas
-                e crescer escrevendo código de verdade.
+                e crescer escrevendo código de verdade. 
               </p>
 
               <div className="hero-meta" aria-label="Informações rápidas">
